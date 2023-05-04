@@ -1,0 +1,32 @@
+theme = "onedark"
+
+[editor]
+scrolloff =  8
+line-number = "relative"
+
+[editor.statusline]
+left = ["mode", "spinner"]
+right = ["diagnostics", "selections", "position", "position-percentage", "file-encoding"]
+center = ["file-name"]
+
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+
+[editor.file-picker]
+
+[editor.auto-pairs]
+
+[editor.search]
+
+[editor.whitespace]
+
+[editor.indent-guides]
+
+
